@@ -9,7 +9,11 @@
 
 <h3><code>ankit@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Ankit's GitHub contribution graph — auto-refreshed daily" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./github-snake.svg" />
+  <img src="./github-snake-dark.svg" width="860" alt="Ankit's GitHub contribution graph — auto-refreshed daily" />
+</picture>
 
 <br>
 <br>
